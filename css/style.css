@@ -1,0 +1,86 @@
+:root{
+    --maincolor: #353535;
+    --bg-color: #fff;
+    --yallow-color:#FFD233;
+}
+body{
+    color: #353535;
+    background-color: var(--bg-color);
+}
+a{
+    text-decoration: none;
+    color: var(--maincolor);
+}
+
+
+
+.navme{
+   position: relative;
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   margin-right:20px ;
+}
+
+.navme::after{
+    content: "";
+    position: absolute;
+    background-color: #888;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+.navme:hover::after{
+    width: 100%;
+}
+
+.banner-cnt i{
+    color: #FFD233;
+}
+
+.banner{
+    padding-top: 100px;
+}
+.banner-cnt{
+    padding-top: 100px;
+}
+
+.banner-cnt h1{
+    font-size: 64px;
+}
+
+.banner-cnt p{
+    font-size: 20px;
+}
+
+.btn-for-ashikur{
+    width: 209px;
+    height: 69px;
+    background-color:var(--yallow-color) ;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.banner-cnt .row i{
+    color: #fff;
+    padding-left: 9px;
+}
+
+.btn2-for-ashikur{
+    width: 209px;
+    height: 69px;
+    color: var(--maincolor);
+    border: 3px solid #353535;
+    border-radius: 20px;
+    font-size: 20px;
+   margin-left: 10px;
+}
+.banner-cnt .btn2-for-ashikur  i{
+    color: #353535;
+}
+
